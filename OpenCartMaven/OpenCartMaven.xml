@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" parallel="none" >
+  <test name="Tests" >
+  <parameter name="Browser" value="chrome"></parameter>
+    <classes>
+       <class name="com.wipro.opencart.tests.RegisterAndAddToCart" />
+    </classes>
+  </test>
+</suite>
